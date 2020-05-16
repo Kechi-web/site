@@ -1,1 +1,77 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+
+body a {
+  color: inherit;
+}
+
+body .intro {
+  background-color: #fff;
+  width: 100%;
+  color: #000000;
+  padding: 280px 0 75px 0;
+}
+
+body .intro h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+body .intro p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin: 40px 0;
+}
+
+body .intro .btn {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 35px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fadb60), to(#ffcc00));
+  background-image: linear-gradient(to bottom, #fadb60, #ffcc00);
+  line-height: 2.58;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  border-radius: 32.5px;
+}
+
+body .intro .icon__link {
+  display: block;
+  margin-top: 210px;
+  font-size: 24px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+body .intro .icon__link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body .intro .icon__link:hover i.fa-vk {
+  color: #0077ff;
+}
+
+body .intro .icon__link:hover i.fa-instagram {
+  color: #C13584;
+}
+
+body .intro .icon__link:hover i.fa-twitter {
+  color: #1DA1F2;
+}
+
+body .intro .icon__link:hover i.fa-facebook-f {
+  color: #0c4dcf;
+}
+/*# sourceMappingURL=style.css.map */
