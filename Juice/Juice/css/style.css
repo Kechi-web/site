@@ -1,0 +1,150 @@
+body{
+    background-color: #f3f7fb;
+    background-image: radial-gradient(circle 675px at center, #ffffff 0%, #f3f7fb 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header{
+    padding-top: 70px;
+}
+
+.header__logo{
+    font-size: 28px;
+    font-weight: 900;
+    color: #000;
+}
+
+.header__logo span{
+    color: #5abb33;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NAV */
+.nav{
+    cursor: default;
+}
+
+.nav__link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 51px;
+    transition: all .1s ease-in-out;
+}
+
+.nav__link:last-child{
+    margin-right: 0;
+}
+
+.nav__link:hover{
+    color: #5abb33;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+/* INTRO */
+.intro__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+}
+
+.intro__desc{
+    padding-top: 90px;
+}
+
+.intro__title{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.29;
+  color: #000000;
+  padding-bottom: 38px;
+}
+
+.intro__text{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #000000;
+  margin-bottom: 39px;
+}
+
+.intro__icon{
+    color: #3d3e3f;
+    font-size: 26px;
+    padding-right: 25px;
+    transition: all .2s ease-in-out;
+}
+
+i.fa-vk:hover{
+    color: #597da3;
+}
+
+i.fa-facebook-f:hover{
+    color: #3b5998;
+}
+
+i.fa-instagram:hover{
+  display: inline-block;
+  background: linear-gradient(to bottom,#405DE6 1%, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+i.fa-twitter:hover{
+    color: #00acee;
+}
+
+.icons{
+    margin: 210px 0 75px 0;
+}
+
+/* BUTTON */
+.button{
+    border-radius: 32.5px;
+    background-image: linear-gradient(to top, #fadb60, #ffcc00);
+    padding: 21px 36px;
+  
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.58;
+    color: #000000;
+}
+
+.button:active{
+    background-image: linear-gradient(to top, #ffde5c, #dfb200);
+}
+
+/* FOOTER */
+.footer{
+  background-color: #232323;
+  text-align: center;
+}
+
+.footer__text{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.13;
+  color: #ffffff;
+  padding: 49px 0;
+}
+
+
+.footer__text span{
+    color: #fada5a;
+}
