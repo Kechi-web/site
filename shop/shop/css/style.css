@@ -1,1 +1,62 @@
 /* No CSS *//*# sourceMappingURL=style.css.map */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+.header{
+    margin-top: 70px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 28px;
+    font-weight: 900;
+    color: inherit;
+}
+
+.header__logo span{
+    color: #5abb33;
+}
+
+/* NAV */
+.nav__link{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 3.44;
+  color: #000000;
+  margin-right: 50px;
+  transition: all .1s ease-in-out;
+}
+
+.nav__link:hover{
+    color: #5abb33;
+}
+
+.nav__link:last-child{
+    margin-right: 0;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #232323;
+    text-align: center;
+}
+  
+.footer__text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.13;
+    color: #ffffff;
+    padding: 49px 0;
+}
+  
+  
+.footer__text span{
+    color: #fada5a;
+}
